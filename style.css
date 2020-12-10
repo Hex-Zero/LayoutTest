@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: aliceblue;
+  background-color: rebeccapurple;
+  height: 20px;
+}
+
+nav > .max-nav-link {
+  padding: 0 10px;
+}
