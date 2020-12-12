@@ -9,9 +9,9 @@ document.getElementById("max-main-content").innerHTML = loadPage(
   "../pages/index.html"
 );
 
-$(".max-nav-link").click(function (e) {
+$(".max-nav-link").click(function (event) {
   $(".max-main-content").empty();
   document.getElementById("max-main-content").innerHTML = loadPage(
-    e.currentTarget.dataset.href
+    event.currentTarget.dataset.href
   );
 });
