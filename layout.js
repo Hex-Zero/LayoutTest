@@ -13,5 +13,5 @@ $(".max-nav-link").click(function (event) {
   $(".max-main-content").empty();
   document.getElementById("max-main-content").innerHTML = loadPage(
     event.currentTarget.dataset.href
-  );
+  );holiday
 });
