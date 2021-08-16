@@ -15,3 +15,13 @@ nav {
 nav > .max-nav-link {
   padding: 0 10px;
 }
+
+#the-container-to-hide {
+  transition: all 0.5s linear;
+  overflow: hidden;
+}
+
+#the-container-to-hide.hidden-new {
+  width: 0px;
+  padding: 0.5rem 0px !important;
+}
