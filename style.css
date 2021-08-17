@@ -23,5 +23,5 @@ nav > .max-nav-link {
 
 #the-container-to-hide.hidden-new {
   width: 0px;
-  padding: 0.5rem 0px !important;
+  padding: 0.5rem 0px;
 }
